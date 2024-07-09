@@ -15,16 +15,29 @@
     "indent_size": 4
   },
   "files": {
-    "solution": [],
-    "test": [],
-    "example": [],
-    "exemplar": []
+    "solution": [
+      "%{kebab_slug}.sed"
+    ],
+    "test": [
+      "test-%{kebab_slug}.bats"
+    ],
+    "example": [
+      ".meta/example.sed"
+    ],
+    "exemplar": [
+      ".meta/exemplar.sed"
+    ]
   },
   "exercises": {
-    "concept": [],
-    "practice": []
-  },
-  "concepts": [],
-  "key_features": [],
-  "tags": []
+    "practice": [
+      {
+        "slug": "hello-world",
+        "name": "Hello World",
+        "uuid": "2c7ee547-344b-468d-80c5-17db4cfb2cd1",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      }
+    ]
+  }
 }
