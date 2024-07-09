@@ -1,0 +1,32 @@
+{
+  "docs": [
+    {
+      "uuid": "f1cac3f1-7771-4e1c-81aa-14599a827528",
+      "slug": "installation",
+      "path": "docs/INSTALLATION.md",
+      "title": "Installing sed locally",
+      "blurb": "Learn how to install sed locally to solve Exercism's exercises on your own machine"
+    },
+    {
+      "uuid": "0d04d6a3-6f5c-4be7-86e9-11c5a708856a",
+      "slug": "learning",
+      "path": "docs/LEARNING.md",
+      "title": "How to learn sed",
+      "blurb": "An overview of how to get started from scratch with sed"
+    },
+    {
+      "uuid": "1a640425-7fcf-4446-a9b8-bf0955ea68f6",
+      "slug": "tests",
+      "path": "docs/TESTS.md",
+      "title": "Testing on the sed track",
+      "blurb": "Learn how to test your sed exercises on Exercism"
+    },
+    {
+      "uuid": "1da56f18-f51a-4fbd-86b5-0b7753017f94",
+      "slug": "resources",
+      "path": "docs/RESOURCES.md",
+      "title": "Useful sed resources",
+      "blurb": "A collection of useful resources to help you master sed"
+    }
+  ]
+}
