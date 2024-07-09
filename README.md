@@ -1,43 +1,30 @@
-# Exercism sed Track
+# Exercism sed track
 
-[![configlet](https://github.com/exercism/sed/workflows/configlet/badge.svg)](https://github.com/exercism/sed/actions?query=workflow%3Aconfiglet) [![tests](https://github.com/exercism/sed/workflows/test/badge.svg)](https://github.com/exercism/sed/actions?query=workflow%3Atest)
+Sed (**S**tream **ED**itor) is a very practical and fun Turing-Complete esoteric language mostly used for text manipulations.
 
-Exercism exercises in sed.
+## Language variant
 
-## Testing
+We'll use [GNU Sed][sed-home] with all GNU extensions (except `e` command) and [*ERE* (Extended Regular Expression)](https://www.gnu.org/software/sed/manual/html_node/ERE-syntax.html#ERE-syntax) in this track.
 
-To test all exercises, run `./bin/verify-exercises`.
-This command will iterate over all exercises and check to see if their exemplar/example implementation passes all the tests.
+## Testing framework
 
-To test a single exercise, run `./bin/verify-exercises <exercise-slug>`.
+Testing will be done with [`bats-core`][bats] from the **Bash Track**.
 
-### Track linting
+## Main Resources
 
-[`configlet`](https://exercism.org/docs/building/configlet) is an Exercism-wide tool for working with tracks. You can download it by running:
+* [Oficial Documentation][sed-docs].
+* [Wikipedia][sed-wiki].
 
-```shell
-$ ./bin/fetch-configlet
-```
+## Support
 
-Run its [`lint` command](https://exercism.org/docs/building/configlet/lint) to verify if all exercises have all the necessary files and if config files are correct:
+Get help on the [Exercism forum][forum].
 
-```shell
-$ ./bin/configlet lint
+# Contributing
 
-The lint command is under development.
-Please re-run this command regularly to see if your track passes the latest linting rules.
+Please see the [CONTRIBUTING.md](CONTRIBUTING.md) document for details about adding concepts, learning exercises and practice exercises.
 
-Basic linting finished successfully:
-- config.json exists and is valid JSON
-- config.json has these valid fields:
-    language, slug, active, blurb, version, status, online_editor, key_features, tags
-- Every concept has the required .md files
-- Every concept has a valid links.json file
-- Every concept has a valid .meta/config.json file
-- Every concept exercise has the required .md files
-- Every concept exercise has a valid .meta/config.json file
-- Every practice exercise has the required .md files
-- Every practice exercise has a valid .meta/config.json file
-- Required track docs are present
-- Required shared exercise docs are present
-```
+[bats]:     https://bats-core.readthedocs.io/en/stable/
+[forum]:    https://forum.exercism.org/
+[sed-docs]: https://www.gnu.org/software/sed/manual/
+[sed-home]: https://www.gnu.org/software/sed/
+[sed-wiki]: https://en.wikipedia.org/wiki/Sed
