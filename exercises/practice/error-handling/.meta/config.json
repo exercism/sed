@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "jimmytty"
+  ],
+  "files": {
+    "solution": [
+      "error-handling.sed"
+    ],
+    "test": [
+      "test-error-handling.bats"
+    ],
+    "example": [
+      ".meta/example.sed"
+    ]
+  },
+  "blurb": "Implement various kinds of error handling and resource management."
+}
