@@ -69,6 +69,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1
+      },
+      {
+        "slug": "pangram",
+        "name": "Pangram",
+        "uuid": "43631a0d-88bd-41df-aed7-9416ead297a6",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
       }
     ]
   }
