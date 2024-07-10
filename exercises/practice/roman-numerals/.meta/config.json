@@ -1,0 +1,19 @@
+{
+  "authors": [
+    "jimmytty"
+  ],
+  "files": {
+    "solution": [
+      "roman-numerals.sed"
+    ],
+    "test": [
+      "test-roman-numerals.bats"
+    ],
+    "example": [
+      ".meta/example.sed"
+    ]
+  },
+  "blurb": "Convert modern Arabic numbers into Roman numerals.",
+  "source": "The Roman Numeral Kata",
+  "source_url": "https://codingdojo.org/kata/RomanNumerals/"
+}
