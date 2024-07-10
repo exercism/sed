@@ -29,6 +29,14 @@
     ]
   },
   "exercises": {
+    "foregone": [
+      "accumulate",
+      "affine-cipher",
+      "all-your-base",
+      "allergies",
+      "alphametics",
+      "armstrong-numbers"
+    ],
     "practice": [
       {
         "slug": "hello-world",
