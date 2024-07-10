@@ -157,6 +157,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 3
+      },
+      {
+        "slug": "test-matching-brackets",
+        "name": "test-matching-brackets",
+        "uuid": "93975a6d-e1a5-4939-83c3-25baa74280bc",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
       }
     ]
   }
