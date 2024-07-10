@@ -19,7 +19,7 @@ Testing will be done with [`bats-core`][bats] from the **Bash Track**.
 
 Get help on the [Exercism forum][forum].
 
-# Contributing
+## Contributing
 
 Please see the [CONTRIBUTING.md](CONTRIBUTING.md) document for details about adding concepts, learning exercises and practice exercises.
 
