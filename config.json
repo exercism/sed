@@ -29,14 +29,6 @@
     ]
   },
   "exercises": {
-    "foregone": [
-      "accumulate",
-      "affine-cipher",
-      "all-your-base",
-      "allergies",
-      "alphametics",
-      "armstrong-numbers"
-    ],
     "practice": [
       {
         "slug": "hello-world",
@@ -189,7 +181,27 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1
+      },
+      {
+        "slug": "bottle-song",
+        "name": "Bottle Song",
+        "uuid": "30fa8c33-02b1-4a27-bc86-40090f150cf2",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
       }
+    ],
+    "foregone": [
+      "accumulate",
+      "affine-cipher",
+      "all-your-base",
+      "allergies",
+      "alphametics",
+      "armstrong-numbers",
+      "bank-account",
+      "binary-search-tree",
+      "binary-search",
+      "book-store"
     ]
   }
 }
