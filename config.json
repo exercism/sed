@@ -189,6 +189,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 4
+      },
+      {
+        "slug": "diamond",
+        "name": "Diamond",
+        "uuid": "44186a3c-fee9-4497-a4b1-a85aea23d876",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
       }
     ],
     "foregone": [
@@ -201,7 +209,13 @@
       "bank-account",
       "binary-search-tree",
       "binary-search",
-      "book-store"
+      "book-store",
+      "bowling",
+      "change",
+      "clock",
+      "collatz-conjecture",
+      "complex-numbers",
+      "darts"
     ]
   }
 }
