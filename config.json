@@ -196,6 +196,14 @@
         "uuid": "44186a3c-fee9-4497-a4b1-a85aea23d876",
         "practices": [],
         "prerequisites": [],
+        "difficulty": 4
+      },
+      {
+        "slug": "food-chain",
+        "name": "Food Chain",
+        "uuid": "26a28186-53ef-4662-82f6-6aa6737918b9",
+        "practices": [],
+        "prerequisites": [],
         "difficulty": 1
       }
     ],
@@ -215,7 +223,13 @@
       "clock",
       "collatz-conjecture",
       "complex-numbers",
-      "darts"
+      "darts",
+      "difference-of-squares",
+      "dnd-character",
+      "dominoes",
+      "eliuds-eggs",
+      "etl",
+      "flatten-array"
     ]
   }
 }
