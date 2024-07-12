@@ -238,40 +238,6 @@
         "prerequisites": [],
         "difficulty": 1
       }
-    ],
-    "foregone": [
-      "accumulate",
-      "affine-cipher",
-      "all-your-base",
-      "allergies",
-      "alphametics",
-      "armstrong-numbers",
-      "bank-account",
-      "binary-search-tree",
-      "binary-search",
-      "book-store",
-      "bowling",
-      "change",
-      "clock",
-      "collatz-conjecture",
-      "complex-numbers",
-      "darts",
-      "difference-of-squares",
-      "dnd-character",
-      "dominoes",
-      "eliuds-eggs",
-      "etl",
-      "flatten-array",
-      "forth",
-      "game-of-life",
-      "gigasecond",
-      "go-counting",
-      "grade-school",
-      "grains",
-      "grep",
-      "high-scores",
-      "isbn-verifier",
-      "killer-sudoku-helper"
     ]
   }
 }
