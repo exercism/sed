@@ -221,6 +221,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 4
+      },
+      {
+        "slug": "house",
+        "name": "House",
+        "uuid": "fab70410-ebae-48f3-b7f7-718de12ff894",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 4
       }
     ],
     "foregone": [
@@ -252,7 +260,8 @@
       "go-counting",
       "grade-school",
       "grains",
-      "grep"
+      "grep",
+      "high-scores"
     ]
   }
 }
