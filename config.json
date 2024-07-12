@@ -237,7 +237,14 @@
       "dominoes",
       "eliuds-eggs",
       "etl",
-      "flatten-array"
+      "flatten-array",
+      "forth",
+      "game-of-life",
+      "gigasecond",
+      "go-counting",
+      "grade-school",
+      "grains",
+      "grep"
     ]
   }
 }
