@@ -229,6 +229,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 4
+      },
+      {
+        "slug": "kindergarten-garden",
+        "name": "Kindergarten Garden",
+        "uuid": "a62e28a6-c078-4338-aa95-f569961dcc37",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
       }
     ],
     "foregone": [
@@ -261,7 +269,9 @@
       "grade-school",
       "grains",
       "grep",
-      "high-scores"
+      "high-scores",
+      "isbn-verifier",
+      "killer-sudoku-helper"
     ]
   }
 }
