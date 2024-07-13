@@ -13,7 +13,7 @@
 # Requires scripts:
 # - bin/verify-exercises
 
-name: <track> / Test
+name: sed / Test
 
 on:
   push:
@@ -23,17 +23,17 @@ on:
 
 jobs:
   ci:
-    runs-on: <image-name>
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332
 
-      - name: Use <setup tooling>
-        uses: <action to setup tooling>
+      # - name: Use <setup tooling>
+      #   uses: <action to setup tooling>
 
       - name: Install project dependencies
-        run: <install dependencies>
+        run: sudo apt update && sudo apt -y install sed bats
 
       - name: Verify all exercises
         run: bin/verify-exercises
