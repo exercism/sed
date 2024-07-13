@@ -8,7 +8,7 @@
     "representer": false,
     "analyzer": false
   },
-  "blurb": "TODO: add blurb",
+  "blurb": "Sed (Stream EDitor) is a very practical and fun Turing-Complete esoteric language mostly used for text manipulations.",
   "version": 3,
   "online_editor": {
     "indent_style": "space",
@@ -239,5 +239,42 @@
         "difficulty": 1
       }
     ]
-  }
+  },
+  "key_features": [
+    {
+      "title": "One-liners",
+      "content": "With just a few dozen characters, you can achieve impressive text transformations.",
+      "icon": "small"
+    },
+    {
+      "title": "Text transformations",
+      "content": "Fast execution agains streams of text.",
+      "icon": "fast"
+    },
+    {
+      "title": "Substitions with steroids",
+      "content": "Make quick pattern replacements in one or multiple text files.",
+      "icon": "easy"
+    },
+    {
+      "title": "Tradicional and esoteric",
+      "content": "Explore new ways of thinking. From Games and calculators to tools, parsers and more.",
+      "icon": "fun"
+    },
+    {
+      "title": "Powerful scripts",
+      "content": "Complex text transformations.",
+      "icon": "powerful"
+    },
+    {
+      "title": "Widely used",
+      "content": "Large use for text transformations on Unix environments",
+      "icon": "widely-used"
+    }
+  ],
+  "tags": [
+    "execution_mode/interpreted",
+    "platform/linux",
+    "used_for/scripts"
+  ]
 }

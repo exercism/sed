@@ -4,14 +4,14 @@
   ],
   "files": {
     "solution": [
-      "test-matching-brackets.sed"
+      "matching-brackets.sed"
     ],
     "test": [
-      "test-test-matching-brackets.bats"
+      "test-matching-brackets.bats"
     ],
     "example": [
       ".meta/example.sed"
     ]
   },
-  "blurb": ""
+  "blurb": "Make sure the brackets and braces all match."
 }
