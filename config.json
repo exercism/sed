@@ -237,6 +237,30 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 1
+      },
+      {
+        "slug": "micro-blog",
+        "name": "Micro Blog",
+        "uuid": "8d8d0a0c-483e-4700-822e-78f9bd30dc84",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 1
+      },
+      {
+        "slug": "sublist",
+        "name": "Sublist",
+        "uuid": "89038cd2-0bb5-41f4-9e53-2ec3f73fc21b",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
+      },
+      {
+        "slug": "markdown",
+        "name": "Markdown",
+        "uuid": "38ee4f74-810d-4fe5-8905-b3b9f84ae1ba",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
       }
     ]
   },

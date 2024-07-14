@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "jimmytty"
+  ],
+  "files": {
+    "solution": [
+      "micro-blog.sed"
+    ],
+    "test": [
+      "test-micro-blog.bats"
+    ],
+    "example": [
+      ".meta/example.sed"
+    ]
+  },
+  "blurb": "Given an input string, truncate it to 5 characters."
+}
