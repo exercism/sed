@@ -253,6 +253,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 2
+      },
+      {
+        "slug": "markdown",
+        "name": "Markdown",
+        "uuid": "38ee4f74-810d-4fe5-8905-b3b9f84ae1ba",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
       }
     ]
   },
