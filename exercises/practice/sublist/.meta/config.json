@@ -1,0 +1,17 @@
+{
+  "authors": [
+    "jimmytty"
+  ],
+  "files": {
+    "solution": [
+      "sublist.sed"
+    ],
+    "test": [
+      "test-sublist.bats"
+    ],
+    "example": [
+      ".meta/example.sed"
+    ]
+  },
+  "blurb": "Write a function to determine if a list is a sublist of another list."
+}
