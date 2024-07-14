@@ -21,20 +21,12 @@
 # Example: verify single exercise
 # ./bin/verify-exercises two-fer
 
-slug="${1:-*}"
+script_dir=${0%/*}
+shopt -s nullglob
 
-# Verify the Concept Exercises
-for concept_exercise_dir in ./exercises/concept/${slug}/; do
-    if [ -d $concept_exercise_dir ]; then
-        echo "Checking $(basename "${concept_exercise_dir}") exercise..."
-        # TODO: run command to verify that the exemplar solution passes the tests
-    fi
-done
-
-# Verify the Practice Exercises
-for practice_exercise_dir in ./exercises/practice/${slug}/; do
-    if [ -d $practice_exercise_dir ]; then
-        echo "Checking $(basename "${practice_exercise_dir}") exercise..."
-        # TODO: run command to verify that the example solution passes the tests
+# Verify Concept and Practice Exercises
+for dir in ./exercises/{concept,practice}/*/; do
+    if [[ -d $dir ]]; then
+        "${script_dir}/verify-one-exercise" "${dir}"
     fi
 done
