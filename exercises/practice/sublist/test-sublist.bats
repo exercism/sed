@@ -2,6 +2,7 @@
 load bats-extra
 
 @test 'empty lists' {
+    #[[ $BATS_RUN_SKIPPED == "true" ]] || skip
     list_one=''
     list_two=''
     expected='equal'
@@ -16,6 +17,7 @@ EOT
 }
 
 @test 'empty list within non empty list' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     list_one=''
     list_two="$(cat <<EOT
 1
@@ -35,6 +37,7 @@ EOT
 }
 
 @test 'non empty list contains empty list' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     list_one="$(cat <<EOT
 1
 2
@@ -54,6 +57,7 @@ EOT
 }
 
 @test 'list equals itself' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     list_one="$(cat <<EOT
 1
 2
@@ -78,6 +82,7 @@ EOT
 }
 
 @test 'different lists' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     list_one="$(cat <<EOT
 1
 2
@@ -102,6 +107,7 @@ EOT
 }
 
 @test 'false start' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     list_one="$(cat <<EOT
 1
 2
@@ -131,6 +137,7 @@ EOT
 }
 
 @test 'consecutive' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     list_one="$(cat <<EOT
 1
 1
@@ -159,6 +166,7 @@ EOT
 }
 
 @test 'sublist at start' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     list_one="$(cat <<EOT
 0
 1
@@ -186,6 +194,7 @@ EOT
 }
 
 @test 'sublist in middle' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     list_one="$(cat <<EOT
 2
 3
@@ -213,6 +222,7 @@ EOT
 }
 
 @test 'sublist at end' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     list_one="$(cat <<EOT
 3
 4
@@ -240,6 +250,7 @@ EOT
 }
 
 @test 'at start of superlist' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     list_one="$(cat <<EOT
 0
 1
@@ -267,6 +278,7 @@ EOT
 }
 
 @test 'in middle of superlist' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     list_one="$(cat <<EOT
 0
 1
@@ -293,6 +305,7 @@ EOT
 }
 
 @test 'at end of superlist' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     list_one="$(cat <<EOT
 0
 1
@@ -321,6 +334,7 @@ EOT
 }
 
 @test 'first list missing element from second list' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     list_one="$(cat <<EOT
 1
 3
@@ -345,6 +359,7 @@ EOT
 }
 
 @test 'second list missing element from first list' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     list_one="$(cat <<EOT
 1
 2
@@ -369,6 +384,7 @@ EOT
 }
 
 @test 'first list missing additional digits from second list' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     list_one="$(cat <<EOT
 1
 2
@@ -392,6 +408,7 @@ EOT
 }
 
 @test 'order matters to a list' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     list_one="$(cat <<EOT
 1
 2
@@ -417,6 +434,7 @@ EOT
 }
 
 @test 'same digits but different numbers' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     list_one="$(cat <<EOT
 1
 0
