@@ -2,6 +2,7 @@
 load bats-extra
 
 @test 'basic' {
+    #[[ $BATS_RUN_SKIPPED == "true" ]] || skip
     run sed -E -f acronym.sed <<< "Portable Network Graphics"
     assert_success
     expected='PNG'
@@ -9,6 +10,7 @@ load bats-extra
 }
 
 @test 'lowercase words' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     run sed -E -f acronym.sed <<< "Ruby on Rails"
     assert_success
     expected='ROR'
@@ -16,6 +18,7 @@ load bats-extra
 }
 
 @test 'punctuation' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     run sed -E -f acronym.sed <<< "First In, First Out"
     assert_success
     expected='FIFO'
@@ -23,6 +26,7 @@ load bats-extra
 }
 
 @test 'all caps word' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     run sed -E -f acronym.sed <<< "GNU Image Manipulation Program"
     assert_success
     expected='GIMP'
@@ -30,6 +34,7 @@ load bats-extra
 }
 
 @test 'punctuation without whitespace' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     run sed -E -f acronym.sed <<< "Complementary metal-oxide semiconductor"
     assert_success
     expected='CMOS'
@@ -37,6 +42,7 @@ load bats-extra
 }
 
 @test 'very long abbreviation' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     run sed -E -f acronym.sed <<< "Rolling On The Floor Laughing So Hard That My Dogs Came Over And Licked Me"
     assert_success
     expected='ROTFLSHTMDCOALM'
@@ -44,6 +50,7 @@ load bats-extra
 }
 
 @test 'consecutive delimiters' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     run sed -E -f acronym.sed <<< "Something - I made up from thin air"
     assert_success
     expected='SIMUFTA'
@@ -51,6 +58,7 @@ load bats-extra
 }
 
 @test 'apostrophes' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     run sed -E -f acronym.sed <<< "Halley's Comet"
     assert_success
     expected='HC'
@@ -58,6 +66,7 @@ load bats-extra
 }
 
 @test 'underscore emphasis' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     run sed -E -f acronym.sed <<< "The Road _Not_ Taken"
     assert_success
     expected='TRNT'

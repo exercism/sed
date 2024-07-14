@@ -2,6 +2,7 @@
 load bats-extra
 
 @test "Degenerate case with a single 'A' row" {
+    #[[ $BATS_RUN_SKIPPED == "true" ]] || skip
     input='A'
     expected='A'
     run sed -E -f diamond.sed <<< "$input"
@@ -10,36 +11,39 @@ load bats-extra
 }
 
 @test 'Degenerate case with no row containing 3 distinct groups of spaces' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     input='B'
-    expected=$(cat <<EOT
+    expected=$(cat <<END_EXPECTED
 .A.
 B.B
 .A.
-EOT
-            )
+END_EXPECTED
+)
     run sed -E -f diamond.sed <<< "$input"
     assert_success
     assert_output "$expected"
 }
 
 @test 'Smallest non-degenerate case with odd diamond side length' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     input='C'
-    expected=$(cat <<EOT
+    expected=$(cat <<END_EXPECTED
 ..A..
 .B.B.
 C...C
 .B.B.
 ..A..
-EOT
-            )
+END_EXPECTED
+)
     run sed -E -f diamond.sed <<< "$input"
     assert_success
     assert_output "$expected"
 }
 
 @test 'Smallest non-degenerate case with even diamond side length' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     input='D'
-    expected=$(cat <<EOT
+    expected=$(cat <<END_EXPECTED
 ...A...
 ..B.B..
 .C...C.
@@ -47,16 +51,17 @@ D.....D
 .C...C.
 ..B.B..
 ...A...
-EOT
-            )
+END_EXPECTED
+)
     run sed -E -f diamond.sed <<< "$input"
     assert_success
     assert_output "$expected"
 }
 
 @test 'Largest possible diamond' {
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     input='Z'
-    expected=$(cat <<EOT
+    expected=$(cat <<END_EXPECTED
 .........................A.........................
 ........................B.B........................
 .......................C...C.......................
@@ -108,8 +113,8 @@ Z.................................................Z
 .......................C...C.......................
 ........................B.B........................
 .........................A.........................
-EOT
-            )
+END_EXPECTED
+)
     run sed -E -f diamond.sed <<< "$input"
     assert_success
     assert_output "$expected"
