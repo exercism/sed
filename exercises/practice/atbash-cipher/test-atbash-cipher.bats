@@ -8,88 +8,96 @@ load bats-extra
 ## "Test encoding from English to atbash-cipher"
 
 @test 'encode yes' {
-    input=$(cat <<EOT
+    #[[ $BATS_RUN_SKIPPED == "true" ]] || skip
+    input=$(cat <<END_INPUT
 encode
 yes
-EOT
-         )
+END_INPUT
+)
     run sed -E -f atbash-cipher.sed <<< "$input"
     assert_success
     assert_output 'bvh'
 }
 
 @test 'encode no' {
-    input=$(cat <<EOT
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+    input=$(cat <<END_INPUT
 encode
 no
-EOT
-         )
+END_INPUT
+)
     run sed -E -f atbash-cipher.sed <<< "$input"
     assert_success
     assert_output 'ml'
 }
 
 @test 'encode OMG' {
-    input=$(cat <<EOT
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+    input=$(cat <<END_INPUT
 encode
 OMG
-EOT
-         )
+END_INPUT
+)
     run sed -E -f atbash-cipher.sed <<< "$input"
     assert_success
     assert_output 'lnt'
 }
 
 @test 'encode spaces' {
-    input=$(cat <<EOT
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+    input=$(cat <<END_INPUT
 encode
 O M G
-EOT
-         )
+END_INPUT
+)
     run sed -E -f atbash-cipher.sed <<< "$input"
     assert_success
     assert_output 'lnt'
 }
 
 @test 'encode mindblowingly' {
-    input=$(cat <<EOT
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+    input=$(cat <<END_INPUT
 encode
 mindblowingly
-EOT
-         )
+END_INPUT
+)
     run sed -E -f atbash-cipher.sed <<< "$input"
     assert_success
     assert_output 'nrmwy oldrm tob'
 }
 
 @test 'encode numbers' {
-    input=$(cat <<EOT
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+    input=$(cat <<END_INPUT
 encode
 Testing,1 2 3, testing.
-EOT
-         )
+END_INPUT
+)
     run sed -E -f atbash-cipher.sed <<< "$input"
     assert_success
     assert_output 'gvhgr mt123 gvhgr mt'
 }
 
 @test 'encode deep thought' {
-    input=$(cat <<EOT
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+    input=$(cat <<END_INPUT
 encode
 Truth is fiction.
-EOT
-         )
+END_INPUT
+)
     run sed -E -f atbash-cipher.sed <<< "$input"
     assert_success
     assert_output 'gifgs rhurx grlm'
 }
 
 @test 'encode all the letters' {
-    input=$(cat <<EOT
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+    input=$(cat <<END_INPUT
 encode
 The quick brown fox jumps over the lazy dog.
-EOT
-         )
+END_INPUT
+)
     run sed -E -f atbash-cipher.sed <<< "$input"
     assert_success
     assert_output 'gsvjf rxpyi ldmul cqfnk hlevi gsvoz abwlt'
@@ -98,66 +106,72 @@ EOT
 ## Test decoding from atbash-cipher to English
 
 @test 'decode exercism' {
-    input=$(cat <<EOT
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+    input=$(cat <<END_INPUT
 decode
 vcvix rhn
-EOT
-         )
+END_INPUT
+)
     run sed -E -f atbash-cipher.sed <<< "$input"
     assert_success
     assert_output 'exercism'
 }
 
 @test 'decode a sentence' {
-    input=$(cat <<EOT
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+    input=$(cat <<END_INPUT
 decode
 zmlyh gzxov rhlug vmzhg vkkrm thglm v
-EOT
-         )
+END_INPUT
+)
     run sed -E -f atbash-cipher.sed <<< "$input"
     assert_success
     assert_output 'anobstacleisoftenasteppingstone'
 }
 
 @test 'decode numbers' {
-    input=$(cat <<EOT
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+    input=$(cat <<END_INPUT
 decode
 gvhgr mt123 gvhgr mt
-EOT
-         )
+END_INPUT
+)
     run sed -E -f atbash-cipher.sed <<< "$input"
     assert_success
     assert_output 'testing123testing'
 }
 
 @test 'decode all the letters' {
-    input=$(cat <<EOT
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+    input=$(cat <<END_INPUT
 decode
 gsvjf rxpyi ldmul cqfnk hlevi gsvoz abwlt
-EOT
-         )
+END_INPUT
+)
     run sed -E -f atbash-cipher.sed <<< "$input"
     assert_success
     assert_output 'thequickbrownfoxjumpsoverthelazydog'
 }
 
 @test 'decode with too many spaces' {
-    input=$(cat <<EOT
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+    input=$(cat <<END_INPUT
 decode
 vc vix    r hn
-EOT
-         )
+END_INPUT
+)
     run sed -E -f atbash-cipher.sed <<< "$input"
     assert_success
     assert_output 'exercism'
 }
 
 @test 'decode with no spaces' {
-    input=$(cat <<EOT
+    [[ $BATS_RUN_SKIPPED == "true" ]] || skip
+    input=$(cat <<END_INPUT
 decode
 zmlyhgzxovrhlugvmzhgvkkrmthglmv
-EOT
-         )
+END_INPUT
+)
     run sed -E -f atbash-cipher.sed <<< "$input"
     assert_success
     assert_output 'anobstacleisoftenasteppingstone'
