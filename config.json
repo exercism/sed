@@ -277,6 +277,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 4
+      },
+      {
+        "slug": "state-of-tic-tac-toe",
+        "name": "State of Tic-Tac-Toe",
+        "uuid": "6130bc5e-9ba9-4fee-ae5b-03005d48ab83",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 2
       }
     ]
   },

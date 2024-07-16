@@ -1,0 +1,17 @@
+{
+  "authors": [],
+  "files": {
+    "solution": [
+      "state-of-tic-tac-toe.sed"
+    ],
+    "test": [
+      "test-state-of-tic-tac-toe.bats"
+    ],
+    "example": [
+      ".meta/example.sed"
+    ]
+  },
+  "blurb": "Determine the game state of a match of Tic-Tac-Toe.",
+  "source": "Created by Sascha Mann for the Julia track of the Exercism Research Experiment.",
+  "source_url": "https://github.com/exercism/research_experiment_1/tree/julia-dev/exercises/julia-1-a"
+}
