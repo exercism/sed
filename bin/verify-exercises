@@ -3,17 +3,18 @@
 # Synopsis:
 # Test the track's exercises.
 # 
-# At a minimum, this file must check if the example/exemplar solution of each 
-# Practice/Concept Exercise passes the exercise's tests.
+# At a minimum, this file must check if the example/exemplar solution
+# of each Practice/Concept Exercise passes the exercise's tests.
 #
-# To check this, you usually have to (temporarily) replace the exercise's solution files
-# with its exemplar/example files.
+# To check this, you usually have to (temporarily) replace the
+# exercise's solution files with its exemplar/example files.
 #
-# If your track uses skipped tests, make sure to (temporarily) enable these tests
-# before running the tests.
+# If your track uses skipped tests, make sure to (temporarily) enable
+# these tests before running the tests.
 #
-# The path to the solution/example/exemplar files can be found in the exercise's
-# .meta/config.json file, or possibly inferred from the exercise's directory name.
+# The path to the solution/example/exemplar files can be found in the
+# exercise's .meta/config.json file, or possibly inferred from the
+# exercise's directory name.
 
 # Example: verify all exercises
 # ./bin/verify-exercises
@@ -22,10 +23,11 @@
 # ./bin/verify-exercises two-fer
 
 script_dir=${0%/*}
+slug="${1:-*}"
 shopt -s nullglob
 
 # Verify Concept and Practice Exercises
-for dir in ./exercises/{concept,practice}/*/; do
+for dir in ./exercises/{concept,practice}/${slug}/; do
     if [[ -d $dir ]]; then
         "${script_dir}/verify-one-exercise" "${dir}"
     fi
