@@ -285,6 +285,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 2
+      },
+      {
+        "slug": "matrix",
+        "name": "Matrix",
+        "uuid": "e689a3a2-8283-44f7-a961-f24d123d02c8",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 5
       }
     ]
   },
