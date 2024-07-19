@@ -301,6 +301,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 5
+      },
+      {
+        "slug": "wordy",
+        "name": "Wordy",
+        "uuid": "eb575f50-a494-4c1d-a919-d20988d9c430",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 8
       }
     ]
   },
