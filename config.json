@@ -325,6 +325,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 8
+      },
+      {
+        "slug": "secret-handshake",
+        "name": "Secret Handshake",
+        "uuid": "235a6659-d846-4513-a4c6-01535d65224d",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 8
       }
     ]
   },
