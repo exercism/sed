@@ -1,14 +1,16 @@
 # About
 
-<!-- TODO: write document
+`Sed` is a traditional tool and a programming language on Unix systems used to perform text transformations on an input stream (a file or input from a pipeline), making only one pass over the input(s), reading the text line by line. This track focus `sed` as a programming language.
 
-  This document contains a short introduction to the language.
+## Main Features
++ Substitution command `s/<REGEX>/[REPLACEMENT]/[FLAGS]`.
++ [Regular Expressions][regex-wiki].
++ Two variables: **pattern space** and **hold space**.
++ Flow control using goto-like instructions, *regexps* and line addresses.
 
-  The introduction should be relatively brief and touch upon what
-  makes the language interesting (and possibly unique). The goal
-  is to help students decide if they want to join this track.
+## Variants
+`Sed` was developed in 1974 and has some classic implementations. This track will use [GNU Sed][sed-home] implementation along with all *GNU* extensions and [ERE (Extended Regular Expression)][ere-info].
 
-  The contents of this document are displayed on the track page,
-  provided the student has not joined the track.
-
-  See https://exercism.org/docs/building/tracks/docs for more information. -->
+[regex-wiki]: https://en.wikipedia.org/wiki/Regular_expression
+[sed-home]: https://www.gnu.org/software/sed/
+[ere-info]: https://www.gnu.org/software/sed/manual/html_node/ERE-syntax.html#ERE-syntax

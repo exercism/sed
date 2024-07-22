@@ -1,15 +1,11 @@
 # Installation
 
-<!-- TODO: write document
+For most systems GNU Sed is already installed for default or can be installed directly from the package manager.
 
-  This document should describe what the student needs to install
-  to allow working on the track on their local system using the CLI.
+## Version
 
-  You can include the installation instructions in this document, but
-  usually it is better to link to a resource with the official installation
-  instructions, to prevent the instructions from becoming outdated.
+This track uses GNU Sed version 4.9 from 2022. To check `sed` version, execute this command:
 
-  The contents of this document are displayed on the track's documentation
-  page at `https://exercism.org/docs/tracks/<track>/installation`.
-
-  See https://exercism.org/docs/building/tracks/docs for more information. -->
+```sh
+sed --version
+```

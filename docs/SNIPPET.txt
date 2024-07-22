@@ -1,1 +1,1 @@
-TODO: add snippet
+s/.*/GNU Sed/

@@ -1,13 +1,7 @@
 # Learning
 
-<!-- TODO: write document
-
-  This document should link to learning resources.
-
-  Feel free to link to any good learning resources you know, whether they
-  be websites, blogs, books, videos or courses.
-
-  The contents of this document are displayed on the track's documentation
-  page at `https://exercism.org/docs/tracks/<track>/learning`.
-
-  See https://exercism.org/docs/building/tracks/docs for more information. -->
++ [Wikipedia](https://en.wikipedia.org/wiki/Sed).
++ [sed.sf.io#docs](https://sed.sourceforge.io/#docs).
++ [Books](https://sed.sourceforge.io/#books).
++ [Oficial Documentation](https://www.gnu.org/software/sed/manual/).
++ [Stack Overflow](https://stackoverflow.com/tags/sed/info).

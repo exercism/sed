@@ -1,13 +1,7 @@
 # Resources
 
-<!-- TODO: write document
++ [Oficial Documentation](https://www.gnu.org/software/sed/manual/).
++ [Wikipedia](https://en.wikipedia.org/wiki/Sed).
++ [sed.nf.io](https://sed.sourceforge.io/).
++ [Stack Overflow](https://stackoverflow.com/tags/sed/info).
 
-  This document should link to useful resources.
-
-  Feel free to link to any good resources you know, whether they
-  be websites, videos, mailing lists, etc.
-
-  The contents of this document are displayed on the track's documentation
-  page at `https://exercism.org/docs/tracks/<track>/resources`.
-
-  See https://exercism.org/docs/building/tracks/docs for more information. -->
