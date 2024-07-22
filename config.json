@@ -341,6 +341,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 8
+      },
+      {
+        "slug": "armstrong-numbers",
+        "name": "Armstrong Numbers",
+        "uuid": "983e8a6b-5ce1-4de4-a82a-942e1bf897b9",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 8
       }
     ]
   },
