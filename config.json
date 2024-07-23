@@ -349,6 +349,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 8
+      },
+      {
+        "slug": "allergies",
+        "name": "Allergies",
+        "uuid": "5cd7beba-3c39-42a3-98fc-89cbcf74b0e9",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 8
       }
     ]
   },
