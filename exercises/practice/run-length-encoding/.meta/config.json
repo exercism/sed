@@ -1,0 +1,19 @@
+{
+  "authors": [
+    "jimmytty"
+  ],
+  "files": {
+    "solution": [
+      "run-length-encoding.sed"
+    ],
+    "test": [
+      "test-run-length-encoding.bats"
+    ],
+    "example": [
+      ".meta/example.sed"
+    ]
+  },
+  "blurb": "Implement run-length encoding and decoding.",
+  "source": "Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/Run-length_encoding"
+}
