@@ -421,6 +421,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 7
+      },
+      {
+        "slug": "perfect-numbers",
+        "name": "Perfect Numbers",
+        "uuid": "0022ee54-393f-4485-a48d-6d1c3283ac15",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 8
       }
     ]
   },
