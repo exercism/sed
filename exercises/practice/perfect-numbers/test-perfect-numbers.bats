@@ -20,7 +20,7 @@ load bats-extra
     assert_output "$expected"
 }
 
-@test 'Last perfect number above 1000 is classified correctly' {
+@test 'Next perfect number is classified correctly' {
     [[ $BATS_RUN_SKIPPED == "true" ]] || skip
     input='"property": "classify", "number": 496'
     expected='perfect'
