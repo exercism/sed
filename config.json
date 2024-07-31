@@ -437,6 +437,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 8
+      },
+      {
+        "slug": "square-root",
+        "name": "Square Root",
+        "uuid": "848a43ab-4398-4208-a15f-4b81d520c7df",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 8
       }
     ]
   },
