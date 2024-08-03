@@ -1,0 +1,19 @@
+{
+  "authors": [
+    "jimmytty"
+  ],
+  "files": {
+    "solution": [
+      "twelve-days.sed"
+    ],
+    "test": [
+      "test-twelve-days.bats"
+    ],
+    "example": [
+      ".meta/example.sed"
+    ]
+  },
+  "blurb": "Output the lyrics to 'The Twelve Days of Christmas'.",
+  "source": "Wikipedia",
+  "source_url": "https://en.wikipedia.org/wiki/The_Twelve_Days_of_Christmas_(song)"
+}

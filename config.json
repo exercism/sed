@@ -469,6 +469,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 8
+      },
+      {
+        "slug": "twelve-days",
+        "name": "Twelve Days",
+        "uuid": "4619f816-12fd-4f32-a032-e39ba7e45f9e",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 3
       }
     ]
   },
