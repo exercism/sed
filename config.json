@@ -477,6 +477,14 @@
         "practices": [],
         "prerequisites": [],
         "difficulty": 3
+      },
+      {
+        "slug": "tournament",
+        "name": "Tournament",
+        "uuid": "8bc0585d-1dcd-4a24-b3e7-792b668ecefa",
+        "practices": [],
+        "prerequisites": [],
+        "difficulty": 8
       }
     ]
   },
