@@ -4,7 +4,7 @@ Sed (**S**tream **ED**itor) is a very practical and fun Turing-Complete esoteric
 
 ## Language variant
 
-We'll use [GNU Sed][sed-home] with all GNU extensions and [*ERE* (Extended Regular Expression)][ere-info] in this track. It's recommended to not use `e` command.
+We'll use [GNU Sed][sed-home] with all GNU extensions and [*ERE* (Extended Regular Expression)][ere-info] in this track.
 
 ## Testing framework
 
