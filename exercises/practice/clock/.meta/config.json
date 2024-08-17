@@ -1,0 +1,18 @@
+{
+  "authors": [
+    "jimmytty"
+  ],
+  "files": {
+    "solution": [
+      "clock.sed"
+    ],
+    "test": [
+      "test-clock.bats"
+    ],
+    "example": [
+      ".meta/example.sed"
+    ]
+  },
+  "blurb": "Implement a clock that handles times without dates.",
+  "source": "Pairing session with Erin Drummond"
+}
