@@ -1,0 +1,10 @@
+y/ABCDEFGHIJKLMNOPQRSTUVWXYZ/abcdefghijklmnopqrstuvwxyz/
+s/.*/ & /
+:loop
+/^ \([^ ]*\) \(.* \)*\1 /{
+  s/^ \([^ ]*\) .*/"\1" appears more than once/
+  b
+}
+s/^ [^ ]*//
+/^ *$/!b loop
+s/.*/no word appears twice/
